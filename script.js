@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Set the date we're counting down to: 15th July 2026 6pm IST
+    // Set the date we're counting down to: 21st July 2026 6pm IST
     // IST is UTC+05:30
-    const countDownDate = new Date("2026-07-15T18:00:00+05:30").getTime();
+    const countDownDate = new Date("2026-07-21T18:00:00+05:30").getTime();
 
     const daysEl = document.getElementById("days");
     const hoursEl = document.getElementById("hours");
